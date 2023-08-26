@@ -10,12 +10,9 @@
 
 <body>
     <div id="app">
-        <ul>
-            <li @click="selectedcomponent='Example'">App</li>
-            <li @click="selectedcomponent='Pokemon'">Pokemon</li>
-        </ul>
-
-        <component :is="selectedcomponent"></component>
+        <router-link to="/example">App</router-link>
+        <router-link to="/pokemon">Pokemon</router-link>
+        <router-view></router-view>
     </div>
 
 </body>

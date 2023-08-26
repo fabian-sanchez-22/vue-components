@@ -9,7 +9,7 @@
 
         <picsum @foto="getFoto"></picsum>
 
-        <imagen :foto="urlFoto"></imagen>
+        <imagen :foto="urlFoto"></imagen   >
 
     </div>
 </template>
